@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "animations_type": "iuH6laDVAn9TtFJEPYu1z8AQxpwNr/NVw/qWQfxnoJdussR/n8VR9WnkCD3kYUS4hbS7OaZnzRaAWt4Qv5ePTzhE872BK7Skh+31b7wkXDXAVmvvAIXPluFFYd+RSxJGpSAZNA8DO9xE+Xy6cBZjzE8OVrxFBA5j+SiNEcgnaGuShzq6418y2vgSvo1tdyu8UvSviE8TYsuHO90i4oXE4pvxpah6wh9fhNzgK0cVt4FI1B/756snboh/hGusvVyyYeUNx/hUIY5PrhE5oR6TOhXD8yfA3UAnHhhy7NQ8vON3m46lRciIHBU7a4LdPAXeRDpc2RvzJJBHZ4YUNtkGWafkjxVT9wTB0mcr9flBNI+0Z6K2T7pIFsnll1kKn/s8zDV52TgqkOrTu4DoSQBRyQ==",
@@ -167,31 +176,32 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "country_list_function": "block",
-    "country_list": "",
+    "_shrine_token_injected": "2025-12-17T19:50:16.208Z",
     "cart_icon": "bag_2",
-    "swatches_predefined_colors": "Black = #000000,\nWhite = #FFFFFF,\nRed = #FF0000,\nBlue = #0000FF,\nGreen = #008000,\nYellow = #FFFF00,\nOrange = #FFA500,\nPurple = #800080,\nPink = #FFC0CB,\nBrown = #A52A2A,\nGray = #808080,\nNavy = #000080,\nTeal = #008080,\nMaroon = #800000,\nOlive = #808000,\nLime = #00FF00,\nAqua = #00FFFF,\nSilver = #C0C0C0,\nGold = #FFD700,\nBeige = #F5F5DC,",
-    "checkout_accent_color": "#dd1d1d",
-    "checkout_button_color": "#dd1d1d",
-    "fav_collection": "GGkLhoTOiV67l21Pb1r8JxbwGAkXLmer7YrABSJ9+A9EXpMu2rSrjF9lHa0vqrWGeeDHu7qtpr+mgxIPPKrM0ejIby9ZNuJF4dFk6amcBZ0jotWApqjdOhQIhMWQVZ0794EEN3Gp6q+hiFhBjWHj1+pTBR3xtiz1jODSHRCNTCGlXN7Iu8CDFs/VLut3g5H43vDSZMIwAJMurqV3IK5GOHTrH1NdIVG0H3QcA9//zSQlxswDRMsm5bamaw9MygihDMlZQ6QlPFSP2VFmaUrRhvwHgDWkOcFtLkvV1HQqnzdRA3AbzmzffCiXn1Gkd7DwMBp/kXuCvSCHt9TT0ZQbA5CyZBX5SXu5n3utfkf4ZEYF+ckSufFydtJWhrRuDGuKYruLRto9jNPdruIZvchs7Q==",
-    "show_cart_payment_badges": false,
-    "cart_trust_badges_width": 100,
-    "enable_cart_discount": false,
-    "enable_cart_timer": true,
-    "cart_timer_text": "<strong>Cart reserved for [timer] more minutes!</strong>",
-    "enable_cart_progress_bar": true,
+    "cart_progress_icon": "local_shipping",
     "cart_progress_message": "Spend [amount] more to get FREE shipping!",
     "cart_progress_success_message": "Congrats! You get FREE shipping! 🎉",
-    "cart_progress_icon": "local_shipping",
-    "enable_cart_upsell_1": false,
-    "cart_upsell_1_product": "thedogface-designer-dog-jacket",
+    "cart_timer_text": "<strong>Cart reserved for [timer] more minutes!</strong>",
+    "cart_trust_badges_width": 100,
     "cart_upsell_1_btn_label": "+ Add",
-    "enable_cart_upsell_2": false,
+    "cart_upsell_1_product": "thedogface-designer-dog-jacket",
+    "cart_upsell_2_btn_label": "+ Add",
+    "cart_upsell_2_desc": "",
     "cart_upsell_2_product": "",
     "cart_upsell_2_title": "",
-    "cart_upsell_2_desc": "",
-    "cart_upsell_2_btn_label": "+ Add",
+    "checkout_accent_color": "#dd1d1d",
+    "checkout_button_color": "#dd1d1d",
+    "country_list": "",
+    "country_list_function": "block",
+    "enable_cart_discount": false,
+    "enable_cart_progress_bar": true,
+    "enable_cart_timer": true,
+    "enable_cart_upsell_1": false,
+    "enable_cart_upsell_2": false,
+    "fav_collection": "GGkLhoTOiV67l21Pb1r8JxbwGAkXLmer7YrABSJ9+A9EXpMu2rSrjF9lHa0vqrWGeeDHu7qtpr+mgxIPPKrM0ejIby9ZNuJF4dFk6amcBZ0jotWApqjdOhQIhMWQVZ0794EEN3Gp6q+hiFhBjWHj1+pTBR3xtiz1jODSHRCNTCGlXN7Iu8CDFs/VLut3g5H43vDSZMIwAJMurqV3IK5GOHTrH1NdIVG0H3QcA9//zSQlxswDRMsm5bamaw9MygihDMlZQ6QlPFSP2VFmaUrRhvwHgDWkOcFtLkvV1HQqnzdRA3AbzmzffCiXn1Gkd7DwMBp/kXuCvSCHt9TT0ZQbA5CyZBX5SXu5n3utfkf4ZEYF+ckSufFydtJWhrRuDGuKYruLRto9jNPdruIZvchs7Q==",
     "section_animation_type": "none",
+    "show_cart_payment_badges": false,
+    "swatches_predefined_colors": "Black = #000000,\nWhite = #FFFFFF,\nRed = #FF0000,\nBlue = #0000FF,\nGreen = #008000,\nYellow = #FFFF00,\nOrange = #FFA500,\nPurple = #800080,\nPink = #FFC0CB,\nBrown = #A52A2A,\nGray = #808080,\nNavy = #000080,\nTeal = #008080,\nMaroon = #800000,\nOlive = #808000,\nLime = #00FF00,\nAqua = #00FFFF,\nSilver = #C0C0C0,\nGold = #FFD700,\nBeige = #F5F5DC,",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -741,7 +751,16 @@
       }
     },
     "content_for_index": [],
-    "_shrine_token_injected": "2025-12-17T19:50:16.208Z"
+    "blocks": {
+      "615602796665766419": {
+        "type": "shopify://apps/gempages-cro/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
+        "disabled": false,
+        "settings": {}
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": []
   },
   "presets": {
     "Default": {
@@ -886,8 +905,5 @@
         }
       }
     }
-  },
-  "platform_customizations": {
-    "custom_css": []
   }
 }
