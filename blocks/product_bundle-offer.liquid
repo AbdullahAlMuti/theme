@@ -147,14 +147,16 @@
               {% if block.settings.show_variant_picker %}
                 <div class='upsell__variant-picker bundle-deals__variant-selects-js' data-index="{{ item_index }}" data-id-index="id_{{ item_index }}">
                   {%- for option in current_product.options_with_values -%}
+                    {%- liquid
+                      assign variants_available_arr = current_product.variants | map: 'available'
+                      assign variants_option1_arr = current_product.variants | map: 'option1'
+                      assign variants_option2_arr = current_product.variants | map: 'option2'
+                      assign variants_option3_arr = current_product.variants | map: 'option3'
+                    -%}
                     <div class="upsell__select select select--small no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
                       <select class="select__select variant-dropdown">
                         {% for value in option.values %}
                           {%- liquid
-                            assign variants_available_arr = current_product.variants | map: 'available'
-                            assign variants_option1_arr = current_product.variants | map: 'option1'
-                            assign variants_option2_arr = current_product.variants | map: 'option2'
-                            assign variants_option3_arr = current_product.variants | map: 'option3'
                              
                             assign option_class = ''
                             assign option_disabled = true
@@ -339,14 +341,16 @@
               {% if block.settings.show_variant_picker %}
                 <div class='upsell__variant-picker bundle-deals__variant-selects-js' data-index="{{ item_index }}" data-id-index="id_{{ item_index }}">
                   {%- for option in current_product.options_with_values -%}
+                    {%- liquid
+                      assign variants_available_arr = current_product.variants | map: 'available'
+                      assign variants_option1_arr = current_product.variants | map: 'option1'
+                      assign variants_option2_arr = current_product.variants | map: 'option2'
+                      assign variants_option3_arr = current_product.variants | map: 'option3'
+                    -%}
                     <div class="upsell__select select select--small no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
                       <select class="select__select variant-dropdown">
                         {% for value in option.values %}
                           {%- liquid
-                            assign variants_available_arr = current_product.variants | map: 'available'
-                            assign variants_option1_arr = current_product.variants | map: 'option1'
-                            assign variants_option2_arr = current_product.variants | map: 'option2'
-                            assign variants_option3_arr = current_product.variants | map: 'option3'
                              
                             assign option_class = ''
                             assign option_disabled = true
@@ -531,14 +535,16 @@
               {% if block.settings.show_variant_picker %}
                 <div class='upsell__variant-picker bundle-deals__variant-selects-js' data-index="{{ item_index }}" data-id-index="id_{{ item_index }}">
                   {%- for option in current_product.options_with_values -%}
+                    {%- liquid
+                      assign variants_available_arr = current_product.variants | map: 'available'
+                      assign variants_option1_arr = current_product.variants | map: 'option1'
+                      assign variants_option2_arr = current_product.variants | map: 'option2'
+                      assign variants_option3_arr = current_product.variants | map: 'option3'
+                    -%}
                     <div class="upsell__select select select--small no-background color-{{ settings.pickers_color_scheme }} accent-color-{{ settings.pickers_overlay_color }} accent-2-color-{{ settings.pickers_text_color }}">
                       <select class="select__select variant-dropdown">
                         {% for value in option.values %}
                           {%- liquid
-                            assign variants_available_arr = current_product.variants | map: 'available'
-                            assign variants_option1_arr = current_product.variants | map: 'option1'
-                            assign variants_option2_arr = current_product.variants | map: 'option2'
-                            assign variants_option3_arr = current_product.variants | map: 'option3'
                              
                             assign option_class = ''
                             assign option_disabled = true

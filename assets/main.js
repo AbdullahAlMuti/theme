@@ -957,9 +957,7 @@ function fixParsedHtml(_0x560b6c, _0x545140) {
         this[_0xcb6ab(0x2ff)] = this[_0xcb6ab(0x42d)][_0xcb6ab(0x309)](_0xcb6ab(0x32d));
     }
     [a0_0x5cI9e6f(0x344)](_0x38ab15) {
-        console.log("REF === ", this["ref"]);
         this["ref"] = false;
-  
         const _0xf227a2 = a0_0x5cI9e6f;
         let _0x1b3097 = null
           , _0x2f37ab = ![];
